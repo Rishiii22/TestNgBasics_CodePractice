@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="URL" value="qaclickacademy.com"></parameter>
+  <test name="OOPsConcept">
+  <parameter name="name" value="Saptarsi"></parameter>
+   <classes>
+  <class name="OOPsConcept.Childclass"/>
+   </classes>
+  </test>
+</suite> <!-- Suite -->
