@@ -25,7 +25,7 @@ public class CountCharactersInSentence {
 		// printing the map
 		for(Map.Entry<Character, Integer> print:letterMap.entrySet())
 		{
-			System.out.println(print.getKey()+":\t"+print.getValue());
+			System.out.println(print.getKey()+"  :\t"+print.getValue());
 		}
 	}
 }
